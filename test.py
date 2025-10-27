@@ -1,15 +1,10 @@
-# TODO 1: Write a program that asks the user to guess a secret number
+# TODO 2: Ask the user for a number and check if it’s even or odd.
 
-secretNumber = 5
 yourNumber = 0
 
-while yourNumber != secretNumber:
-    yourNumber = int(input("Podaj liczbę: "))
+yourNumber = int(input("Podaj liczbę: "))
 
-    if (yourNumber > secretNumber):
-        print("Twoja liczba jest większa od liczby szukanej")
-    elif (yourNumber < secretNumber):
-        print("Twoja liczba jest mniejsza od liczby szukanej")
-    else:
-        print("Wygrałeś!")
-
+if yourNumber % 2 == 0:
+    print("Your number is even")
+else:
+    print("Your number is odd")
