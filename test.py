@@ -11,5 +11,5 @@ while yourNumber != secretNumber:
     elif (yourNumber < secretNumber):
         print("Twoja liczba jest mniejsza od liczby szukanej")
     else:
-        print("Wygrałeś")
+        print("Wygrałeś!")
 
