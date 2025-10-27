@@ -1,10 +1,40 @@
 # TODO 2: Ask the user for a number and check if it’s even or odd.
 
-yourNumber = 0
+# yourNumber = 0
+#
+# yourNumber = int(input("Podaj liczbę: "))
+#
+# if yourNumber % 2 == 0:
+#     print("Your number is even")
+# else:
+#     print("Your number is odd")
 
-yourNumber = int(input("Podaj liczbę: "))
+# TODO 3: Ask for a number N and print all numbers from 1 to N..
 
-if yourNumber % 2 == 0:
-    print("Your number is even")
-else:
-    print("Your number is odd")
+# Version 0
+# userNumberN = int(input("Give number N: "))
+# i = 0
+# temporaryNumber = 0
+#
+# for i in range(userNumberN):
+#     i += 1
+#     temporaryNumber += 1
+#     if temporaryNumber < userNumberN:
+#         print("Temporary number is: ", temporaryNumber)
+#     elif temporaryNumber == userNumberN:
+#         print("Temporary number is equal user number N", temporaryNumber, userNumberN)
+
+# Version 2
+# userNumberN = int(input("Give number N: "))
+#
+# for i in range(1, userNumberN + 1):
+#     if i < userNumberN:
+#         print("Temporary number is: ", i)
+#     elif i == userNumberN:
+#         print("Temporary number is equal user number N", i, userNumberN)
+
+# Version 3
+# userNumberN = int(input("Give number N: "))
+#
+# for i in range(1, userNumberN + 1):
+#    print(i)
