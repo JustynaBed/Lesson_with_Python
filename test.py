@@ -49,7 +49,7 @@
 #     print(i, result)
 #     i += 1
 
-# TODO 5: Print all numbers from 1 to 100 that are divisible by 3 but not by 5.
+#TODO 5: Print all numbers from 1 to 100 that are divisible by 3 but not by 5.
 
 # version 1
 # i = 1
