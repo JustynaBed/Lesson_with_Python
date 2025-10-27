@@ -49,13 +49,13 @@
 #     print(i, result)
 #     i += 1
 
-#TODO 5: Print all numbers from 1 to 100 that are divisible by 3 but not by 5.
+# TODO 5: Print all numbers from 1 to 100 that are divisible by 3 but not by 5.
 
 # version 1
-# i = 1
-# for i in range(1, 101):
-#     if i % 3 == 0 and i % 5 != 0:
-#         print(i)
+i = 1
+for i in range(1, 101):
+    if i % 3 == 0 and i % 5 != 0:
+        print(i)
 
 # version 2
 # i = 1
