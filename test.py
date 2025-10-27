@@ -39,7 +39,7 @@
 # for i in range(1, userNumberN + 1):
 #    print(i)
 
-# # TODO 4: Calculate the sum of all numbers from 1 to 100 using a loop.
+# TODO 4: Calculate the sum of all numbers from 1 to 100 using a loop.
 #
 # i =  1
 # result = 0
